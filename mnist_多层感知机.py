@@ -66,11 +66,4 @@ for batch_test_index in range(num_test_batches):
 	start_index, end_index = batch_test_index * batch_size, (batch_test_index + 1) * batch_size
 	y_test_pred = model.predict(data_loader.test_data[start_index: end_index])
 	sparse_categorical_accuracy.update_state(y_true = data_loader.test_label[start_index: end_index], y_pred = y_test_pred)
-print("test accuracy: %f" % sparse_categorical_accuracy.result())
-
-
-
-		
-
-	
-		
+print("test accuracy: %f" % sparse_categorical_accuracy.result())		
