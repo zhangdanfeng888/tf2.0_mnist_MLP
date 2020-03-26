@@ -3,4 +3,10 @@
 代码来源于https://tf.wiki/zh/basic/models.html 自己稍微做了修改。
 
 训练结果：
+
+
+
+
+
+
 ![Image text](https://github.com/zhangdanfeng888/tf2.0_mnist_MLP/blob/master/result.jpg)
